@@ -12,6 +12,7 @@ public class Main {
         Tomcat app = getApp(8090);
         app.start();
         app.getServer().await();
+
     }
 
     public static Tomcat getApp(int port) {
